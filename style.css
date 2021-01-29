@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+	border-style: border-box;
+}
+body{
+	background-color: white;
+	overflow-x: hidden;
+}
+.nav{
+	height: 30px;
+}
+/*TITLE SECTION*/
+.title{
+	margin-left: 15%;
+	display: flex;
+	width: 100%;
+}
+.crew{
+	font-family: 'Oswald', sans-serif;
+	font-size: 5vh;
+
+}
+.info{
+	margin-left: 20%;
+}
+.who{
+	font-family: 'Rubik', sans-serif;
+}
+.team{
+	font-family: 'Karla', sans-serif;
+	width: 40%;
+}
+
+/*photo*/
+.second,.third{
+	display: flex;
+	align-items: center;
+	margin-left: 15%;
+	width: 100%;
+}
+.photo1,.photo2,.photo3{
+	width: 11em;
+	height: 15em;
+}
+.owner,.director,.tech,.developer{
+   float: right;
+   transform: rotate(90deg);
+   transform-origin: top left;
+   font-family: 'Roboto Slab', serif;
+   font-size: 10px;
+}
+.one{
+	width: 45vh;
+}
+.two,.five{
+	margin-top: 80px;
+	width: 43vh;
+}
+.five{
+	margin-left: 20px;
+}
+.three,.four{
+	width: 40vh;
+}	
+.name{
+	 font-family: 'ABeeZee', sans-serif;
+}
+.footer{
+	margin-top: 20px;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+/*Responsive*/
+@media(min-width:320px) and (max-width:425px ){
+	.title{
+	display: block;
+	}
+	.crew{
+		margin: 0px 0px 30px -30px;
+	}
+	.info{
+	margin-left: -30px;
+	}
+	.team{
+	width: 75%;
+	}
+	.photo1,.photo2,.photo3{
+	width: 7em;
+	height: 11em;
+	}
+	.second,.third{
+		display: block;
+		margin-left: 30px;
+	}
+	.one{
+		margin-top: 50px;
+		width: 40vh;
+	}
+	.two,.six{	
+		float: left;
+		margin: -120px 0px 0px 160px;
+	}
+	.four{
+		float: left;
+		margin: -200px 0px 0px 160px;
+	}
+	.director,.tech,.developer,.owner{
+		float: left;
+		margin: -170px 0px 0px 140px; 
+	}
+	.three,.five{
+		width: 35vh;
+	}	
+	.five{
+		margin-left: -5px;
+	}
+}
